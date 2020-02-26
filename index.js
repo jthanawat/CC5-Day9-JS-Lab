@@ -1,3 +1,4 @@
+// * Variables *
 // Lab 
 let name, human;
 name = "Thanawat";
@@ -26,6 +27,9 @@ address = 'Bangkhen, Bangkok, Thailand';
 let myBio = `My name is ${myName}. \nI am ${myAge}. \nI live in ${myAddress}`;
 console.log(myBio);
 
+
+
+// * Data types & Type Conversions *
 // Exercise 
 "" + 1 + 0          // "10"
 "" - 1 + 0          // -1
@@ -43,6 +47,9 @@ null + 1            // 1
 undefined + 1       // NaN
 " \t\n" - 2         // -2
 
+
+
+// * Conditional operators: If *
 // Exercise Browser จะโชว์ข้อความ "Hello Codecamp #5" ไหม
 // ans. แสดง
 if ("0") {
@@ -71,6 +78,7 @@ if (myScore >= 80) {
     alert('A');
 }
 // ในรูป Ternary Operators : myScore >= 80 ? console.log('A') : myScore >= 70 ? console.log('B') : myScore >= 60 ? console.log('C') : myScore >= 50 ? console.log('D') : console.log('A');
+
 
 // Exercise เปลี่ยน if-else ข้างล่างในอยู่ในรูปของ Ternary Operators
 // let age = prompt ('How old are you?');
